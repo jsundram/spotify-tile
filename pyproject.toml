@@ -25,6 +25,8 @@ dev = [
   "pixelmatch>=0.3",
   "ruff>=0.9",
   "mypy>=1.14",
+  "uharfbuzz>=0.55.0",
+  "fonttools>=4.63.0",
 ]
 
 [build-system]

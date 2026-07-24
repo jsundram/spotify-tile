@@ -34,12 +34,17 @@ from __future__ import annotations
 import argparse
 import colorsys
 import json
+import logging
 import re
+from functools import lru_cache
 from pathlib import Path
-from xml.sax.saxutils import escape
 
+import uharfbuzz as hb
 from dotenv import load_dotenv
-from PIL import ImageFont
+from fontTools.pens.svgPathPen import SVGPathPen
+from fontTools.ttLib import TTFont
+
+logging.getLogger("fontTools").setLevel(logging.ERROR)  # silence benign table warnings
 
 from geomusic import cache
 from geomusic.config import load_config
@@ -68,16 +73,14 @@ SQUARE_MOTIF_BOOST = 1.32  # enlarge square motifs (margins clip harmlessly)
 PANEL_TOP = 1250          # where the text panel begins
 PAD = 96                  # left/right text inset
 
-# Typography (macOS system fonts; cairosvg resolves them via fontconfig).
-# Roman = Didot (a striking high-contrast display serif); italic = Palatino.
-# Didot's *italic* kerns badly in cairosvg (loose gaps after capitals), whereas
-# Palatino's italic is clean -- and a classic, apt match for classical music.
-# The paths/indices are used only for PIL width measurement.
-FONT_FAMILY = "Didot"
-FONT_ITALIC_FAMILY = "Palatino"
+# Typography: Didot, a striking high-contrast display serif. Text is emitted as
+# HarfBuzz-shaped outline paths rather than SVG <text> because cairosvg's
+# toy-text backend applies no kerning (which left Didot's italic capitals badly
+# spaced). Paths bake in correct kerning and make the SVG self-contained (no
+# dependency on the fonts being installed wherever it's rendered).
 _FONT_FILES = {
     False: ("/System/Library/Fonts/Supplemental/Didot.ttc", 0),  # Didot Regular
-    True: ("/System/Library/Fonts/Palatino.ttc", 1),             # Palatino Italic
+    True: ("/System/Library/Fonts/Supplemental/Didot.ttc", 1),   # Didot Italic
 }
 
 COMPOSER_MAX = 92
@@ -218,21 +221,59 @@ def uninvert_article(name: str) -> str:
     return name
 
 
-# --- text measurement / fitting --------------------------------------------
-
-_FONTS: dict[tuple[bool, int], ImageFont.FreeTypeFont] = {}
+# --- text shaping (HarfBuzz -> outline paths) --------------------------------
 
 
-def _font(size: int, italic: bool) -> ImageFont.FreeTypeFont:
-    key = (italic, size)
-    if key not in _FONTS:
-        path, index = _FONT_FILES[italic]
-        _FONTS[key] = ImageFont.truetype(path, size, index=index)
-    return _FONTS[key]
+class _Face:
+    """A shaping + outline face: HarfBuzz for positions, fontTools for glyphs."""
+
+    def __init__(self, path: str, index: int) -> None:
+        with open(path, "rb") as fh:
+            face = hb.Face(fh.read(), index)
+        self.font = hb.Font(face)
+        self.upem = face.upem
+        self._tt = TTFont(path, fontNumber=index)
+        self._glyphs = self._tt.getGlyphSet()
+
+    @lru_cache(maxsize=4096)  # noqa: B019 (faces are process-lived singletons)
+    def _outline(self, gid: int) -> str:
+        pen = SVGPathPen(self._glyphs)
+        self._glyphs[self._tt.getGlyphName(gid)].draw(pen)
+        return pen.getCommands()
+
+    def shape(self, text: str) -> tuple[tuple[str, int, int, int], ...]:
+        """(outline, x_offset, y_offset, x_advance) per glyph, in font units."""
+        if not text:  # HarfBuzz returns None infos for an empty buffer
+            return ()
+        buf = hb.Buffer()
+        buf.add_str(text)
+        buf.guess_segment_properties()
+        hb.shape(self.font, buf, {"kern": True, "liga": True})
+        return tuple(
+            (self._outline(info.codepoint), pos.x_offset, pos.y_offset, pos.x_advance)
+            for info, pos in zip(buf.glyph_infos, buf.glyph_positions)
+        )
 
 
-def text_width(text: str, size: float, italic: bool = False) -> float:
-    return _font(int(size), italic).getlength(text)
+_FACES: dict[bool, _Face] = {}
+
+
+def _face(italic: bool) -> _Face:
+    if italic not in _FACES:
+        _FACES[italic] = _Face(*_FONT_FILES[italic])
+    return _FACES[italic]
+
+
+@lru_cache(maxsize=2048)
+def _shape(text: str, italic: bool) -> tuple[tuple[str, int, int, int], ...]:
+    return _face(italic).shape(text)
+
+
+def text_width(text: str, size: float, italic: bool = False, tracking: float = 0) -> float:
+    run = _shape(text, italic)
+    scale = size / _face(italic).upem
+    advance = sum(adv for _, _, _, adv in run) * scale
+    return advance + tracking * max(0, len(run) - 1)
 
 
 def fit_size(text: str, max_w: float, hi: int, lo: int = 30, italic: bool = False) -> int:
@@ -318,15 +359,26 @@ def build_art(doc: dict) -> tuple[str, Palette]:
 
 
 def _text(x: float, y: float, s: str, size: float, fill: str, *, italic: bool = False,
-          anchor: str = "start", weight: str = "normal", tracking: float = 0) -> str:
-    family = FONT_ITALIC_FAMILY if italic else FONT_FAMILY
-    style = ' font-style="italic"' if italic else ""
-    track = f' letter-spacing="{tracking}"' if tracking else ""
-    return (
-        f'<text x="{x:.1f}" y="{y:.1f}" font-family="{family}" '
-        f'font-size="{size:.0f}" font-weight="{weight}" fill="{fill}"'
-        f'{style}{track} text-anchor="{anchor}">{escape(s)}</text>'
-    )
+          anchor: str = "start", tracking: float = 0) -> str:
+    """A text run as filled glyph outlines, baseline at y, anchored at x."""
+    run = _shape(s, italic)
+    scale = size / _face(italic).upem
+    if anchor in ("end", "middle"):
+        w = text_width(s, size, italic, tracking)
+        x -= w if anchor == "end" else w / 2
+    parts = [f'<g fill="{fill}">']
+    pen = 0.0
+    for outline, xoff, yoff, adv in run:
+        if outline:
+            gx = x + pen + xoff * scale
+            gy = y - yoff * scale
+            parts.append(
+                f'<path d="{outline}" transform="translate({gx:.2f},{gy:.2f}) '
+                f'scale({scale:.5f},{-scale:.5f})"/>'
+            )
+        pen += adv * scale + tracking
+    parts.append("</g>")
+    return "".join(parts)
 
 
 def compose_story(doc: dict) -> str:
