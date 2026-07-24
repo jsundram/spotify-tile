@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2400" viewBox="0 0 2400 2400">
+<metadata>{"audio_features": {"acousticness": 0.0113, "danceability": 0.593, "duration_ms": 309053, "energy": 0.749, "instrumentalness": 0.106, "key": 5, "liveness": 0.314, "loudness": -5.67, "mode": 1, "speechiness": 0.0475, "tempo": 164.959, "time_signature": 4, "valence": 0.649}, "cache_fetched_at": "2026-07-24T08:01:38Z", "config_version": "2", "generator": "geomusic", "parameters": {"cell_count": 7, "composition": "square", "config_version": "2", "displaced": true, "features": {"acousticness": 0.0113, "danceability": 0.593, "duration_ms": 309053, "energy": 0.749, "instrumentalness": 0.106, "key": 5, "liveness": 0.314, "loudness": -5.67, "mode": 1, "speechiness": 0.0475, "tempo": 164.959, "time_signature": 4, "valence": 0.649}, "flags": [true, false, false, false], "key": 5, "mode": 1, "pitch": "F", "radius_frac": 0.82425, "renderer_version": "0.1.0", "track_id": "5ruzrDWcT0vuJIOMW7gMnW", "x_scale": 1.0980249999999998, "y_scale": 0.944877}, "renderer_version": "0.1.0", "spotify_url": "https://open.spotify.com/track/5ruzrDWcT0vuJIOMW7gMnW", "track": {"album": "The New Abnormal", "artists": ["The Strokes"], "id": "5ruzrDWcT0vuJIOMW7gMnW", "name": "The Adults Are Talking", "spotify_url": "https://open.spotify.com/track/5ruzrDWcT0vuJIOMW7gMnW"}, "track_id": "5ruzrDWcT0vuJIOMW7gMnW"}</metadata>
+<defs>
+<clipPath id="clip0"><rect x="671.42" y="1200" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip1"><rect x="935.71" y="1200" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip2"><rect x="671.42" y="1464.29" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip3"><rect x="935.71" y="1464.29" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip4"><rect x="1200" y="1200" width="528.58" height="528.58"/></clipPath>
+<clipPath id="clip5"><rect x="1200" y="671.42" width="528.58" height="528.58"/></clipPath>
+<clipPath id="clip6"><rect x="671.42" y="671.42" width="528.58" height="528.58"/></clipPath>
+</defs>
+<g id="background">
+<rect x="0" y="0" width="2400" height="2400" fill="#ffffff"/>
+<rect x="212" y="212" width="1976" height="1976" fill="#f7c96b"/>
+</g>
+<g id="cell_bg">
+<rect x="671.42" y="1200" width="264.29" height="264.29" fill="#796e8b"/>
+<rect x="935.71" y="1200" width="264.29" height="264.29" fill="#554160"/>
+<rect x="671.42" y="1464.29" width="264.29" height="264.29" fill="#32233b"/>
+<rect x="935.71" y="1464.29" width="264.29" height="264.29" fill="#60b497"/>
+<rect x="1200" y="1200" width="528.58" height="528.58" fill="#32233b"/>
+<rect x="1200" y="671.42" width="528.58" height="528.58" fill="#f7c96b"/>
+<rect x="671.42" y="671.42" width="528.58" height="528.58" fill="#b0e5b4"/>
+</g>
+<g id="motifs">
+<polygon points="803.56,1234.22 917.36,1332.14 803.56,1430.07 689.77,1332.14" fill="#f7c96b" clip-path="url(#clip0)"/>
+<polygon points="803.56,1283.18 860.46,1332.14 803.56,1381.11 746.67,1332.14" fill="#91b8a3" clip-path="url(#clip0)"/>
+<ellipse cx="1067.86" cy="1332.14" rx="106.45" ry="106.45" fill="#f7c96b" clip-path="url(#clip1)"/>
+<polygon points="803.56,1493.97 922.64,1596.43 803.56,1698.9 684.49,1596.43" fill="#554160" clip-path="url(#clip2)"/>
+<polygon points="935.71,1464.29 1200,1464.29 1200,1728.58" fill="#b0e5b4" clip-path="url(#clip3)"/>
+<ellipse cx="1464.29" cy="1464.29" rx="225.98" ry="225.98" fill="#60b497" clip-path="url(#clip4)"/>
+<polygon points="1464.29,706.96 1730.12,935.71 1464.29,1164.46 1198.46,935.71" fill="#60b497" clip-path="url(#clip5)"/>
+<polygon points="1464.29,821.33 1597.2,935.71 1464.29,1050.09 1331.38,935.71" fill="#32233b" clip-path="url(#clip5)"/>
+<polygon points="696.52,671.42 1174.9,671.42 935.71,935.71" fill="#796e8b" clip-path="url(#clip6)"/>
+<polygon points="696.52,1200 1174.9,1200 935.71,935.71" fill="#796e8b" clip-path="url(#clip6)"/>
+</g>
+<g id="displaced">
+</g>
+<g id="dots">
+<ellipse cx="803.56" cy="1398.22" rx="33.04" ry="33.04" fill="#554160" clip-path="url(#clip0)"/>
+<ellipse cx="1133.93" cy="1266.07" rx="33.04" ry="33.04" fill="#f7c96b" clip-path="url(#clip1)"/>
+<ellipse cx="869.64" cy="1596.43" rx="33.04" ry="33.04" fill="#60b497" clip-path="url(#clip2)"/>
+<ellipse cx="1001.78" cy="1662.51" rx="33.04" ry="33.04" fill="#796e8b" clip-path="url(#clip3)"/>
+<ellipse cx="1067.86" cy="1067.86" rx="66.07" ry="66.07" fill="#f7c96b" clip-path="url(#clip6)"/>
+</g>
+<g id="caption">
+<text x="1606" y="2277.68" text-anchor="end" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" fill="#8a8a8a">key = 5</text>
+<rect x="1636" y="2246" width="69" height="44" fill="#f7c96b"/>
+<rect x="1705" y="2246" width="69" height="44" fill="#60b497"/>
+<rect x="1774" y="2246" width="69" height="44" fill="#b0e5b4"/>
+<rect x="1843" y="2246" width="69" height="44" fill="#91b8a3"/>
+<rect x="1912" y="2246" width="69" height="44" fill="#32233b"/>
+<rect x="1981" y="2246" width="69" height="44" fill="#554160"/>
+<rect x="2050" y="2246" width="69" height="44" fill="#796e8b"/>
+<rect x="2119" y="2246" width="69" height="44" fill="#4a5c68"/>
+</g>
+</svg>

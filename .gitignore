@@ -1,0 +1,23 @@
+.env
+.env.*
+!.env.example
+.cache/
+output/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.DS_Store
+spotify_test.sh
+
+# Private working notes (owner-only)
+spec.md
+
+# Third-party copyrighted material — do not redistribute (see references/README.md).
+# Keep the download manifest so the assets remain reproducible from hashes/URLs.
+GeoMusical Configurations.pdf
+*.webloc
+references/source/*
+!references/source/download-manifest.json

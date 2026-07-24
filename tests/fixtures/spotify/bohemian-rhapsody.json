@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "fetched_at": "2026-07-24T08:01:31Z",
+  "track": {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+          },
+          "href": "https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d",
+          "id": "1dfeR4HaWDbWqFHLkxsg1d",
+          "name": "Queen",
+          "type": "artist",
+          "uri": "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/1TSZDcvlPtAnekTaItI3qO"
+      },
+      "href": "https://api.spotify.com/v1/albums/1TSZDcvlPtAnekTaItI3qO",
+      "id": "1TSZDcvlPtAnekTaItI3qO",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273a461aa96bd9a8fcd0a492aee",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02a461aa96bd9a8fcd0a492aee",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851a461aa96bd9a8fcd0a492aee",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "name": "A Night At The Opera (2011 Remaster)",
+      "release_date": "1975-11-21",
+      "release_date_precision": "day",
+      "total_tracks": 12,
+      "type": "album",
+      "uri": "spotify:album:1TSZDcvlPtAnekTaItI3qO"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d"
+        },
+        "href": "https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d",
+        "id": "1dfeR4HaWDbWqFHLkxsg1d",
+        "name": "Queen",
+        "type": "artist",
+        "uri": "spotify:artist:1dfeR4HaWDbWqFHLkxsg1d"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 354320,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "GBUM71029604"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/1AhDOtG9vPSOmsWgNW0BEY"
+    },
+    "href": "https://api.spotify.com/v1/tracks/1AhDOtG9vPSOmsWgNW0BEY",
+    "id": "1AhDOtG9vPSOmsWgNW0BEY",
+    "is_local": false,
+    "name": "Bohemian Rhapsody - Remastered 2011",
+    "popularity": 6,
+    "preview_url": null,
+    "track_number": 11,
+    "type": "track",
+    "uri": "spotify:track:1AhDOtG9vPSOmsWgNW0BEY"
+  },
+  "audio_features": {
+    "id": "1AhDOtG9vPSOmsWgNW0BEY",
+    "uri": "spotify:track:1AhDOtG9vPSOmsWgNW0BEY",
+    "track_href": "https://api.spotify.com/v1/tracks/1AhDOtG9vPSOmsWgNW0BEY",
+    "analysis_url": "https://api.spotify.com/v1/audio-analysis/1AhDOtG9vPSOmsWgNW0BEY",
+    "danceability": 0.414,
+    "duration_ms": 354320,
+    "energy": 0.404,
+    "key": 0,
+    "loudness": -9.928,
+    "mode": 0,
+    "speechiness": 0.0499,
+    "acousticness": 0.271,
+    "instrumentalness": 0,
+    "liveness": 0.3,
+    "valence": 0.224,
+    "tempo": 71.105,
+    "time_signature": 4,
+    "type": "audio_features"
+  }
+}

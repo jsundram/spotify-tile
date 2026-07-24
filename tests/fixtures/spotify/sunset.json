@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "fetched_at": "2026-07-24T08:01:36Z",
+  "track": {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/3iOvXCl6edW5Um0fXEBRXy"
+          },
+          "href": "https://api.spotify.com/v1/artists/3iOvXCl6edW5Um0fXEBRXy",
+          "id": "3iOvXCl6edW5Um0fXEBRXy",
+          "name": "The xx",
+          "type": "artist",
+          "uri": "spotify:artist:3iOvXCl6edW5Um0fXEBRXy"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/4SXTQ305LjMh2DBHA3CXIW"
+      },
+      "href": "https://api.spotify.com/v1/albums/4SXTQ305LjMh2DBHA3CXIW",
+      "id": "4SXTQ305LjMh2DBHA3CXIW",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b27304c08e20ca41f804c7472e41",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e0204c08e20ca41f804c7472e41",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000485104c08e20ca41f804c7472e41",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "name": "Coexist",
+      "release_date": "2012-09-10",
+      "release_date_precision": "day",
+      "total_tracks": 11,
+      "type": "album",
+      "uri": "spotify:album:4SXTQ305LjMh2DBHA3CXIW"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3iOvXCl6edW5Um0fXEBRXy"
+        },
+        "href": "https://api.spotify.com/v1/artists/3iOvXCl6edW5Um0fXEBRXy",
+        "id": "3iOvXCl6edW5Um0fXEBRXy",
+        "name": "The xx",
+        "type": "artist",
+        "uri": "spotify:artist:3iOvXCl6edW5Um0fXEBRXy"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 218586,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "GBBKS1200090"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/76G5L5EC20PrZkH1vvT0s2"
+    },
+    "href": "https://api.spotify.com/v1/tracks/76G5L5EC20PrZkH1vvT0s2",
+    "id": "76G5L5EC20PrZkH1vvT0s2",
+    "is_local": false,
+    "name": "Sunset",
+    "popularity": 59,
+    "preview_url": null,
+    "track_number": 6,
+    "type": "track",
+    "uri": "spotify:track:76G5L5EC20PrZkH1vvT0s2"
+  },
+  "audio_features": {
+    "id": "76G5L5EC20PrZkH1vvT0s2",
+    "uri": "spotify:track:76G5L5EC20PrZkH1vvT0s2",
+    "track_href": "https://api.spotify.com/v1/tracks/76G5L5EC20PrZkH1vvT0s2",
+    "analysis_url": "https://api.spotify.com/v1/audio-analysis/76G5L5EC20PrZkH1vvT0s2",
+    "danceability": 0.836,
+    "duration_ms": 218587,
+    "energy": 0.181,
+    "key": 2,
+    "loudness": -15.878,
+    "mode": 1,
+    "speechiness": 0.0778,
+    "acousticness": 0.557,
+    "instrumentalness": 0.45,
+    "liveness": 0.113,
+    "valence": 0.383,
+    "tempo": 119.98,
+    "time_signature": 4,
+    "type": "audio_features"
+  }
+}

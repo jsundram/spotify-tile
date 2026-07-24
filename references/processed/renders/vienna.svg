@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2400" viewBox="0 0 2400 2400">
+<metadata>{"audio_features": {"acousticness": 0.659, "danceability": 0.532, "duration_ms": 214240, "energy": 0.495, "instrumentalness": 0.0, "key": 10, "liveness": 0.0754, "loudness": -6.662, "mode": 1, "speechiness": 0.0343, "tempo": 124.936, "time_signature": 4, "valence": 0.308}, "cache_fetched_at": "2026-07-24T08:01:30Z", "config_version": "2", "generator": "geomusic", "parameters": {"cell_count": 13, "composition": "square", "config_version": "2", "displaced": false, "features": {"acousticness": 0.659, "danceability": 0.532, "duration_ms": 214240, "energy": 0.495, "instrumentalness": 0.0, "key": 10, "liveness": 0.0754, "loudness": -6.662, "mode": 1, "speechiness": 0.0343, "tempo": 124.936, "time_signature": 4, "valence": 0.308}, "flags": [true, false, true, true], "key": 10, "mode": 1, "pitch": "Bb", "radius_frac": 0.76749, "renderer_version": "0.1.0", "track_id": "4U45aEWtQhrm8A5mxPaFZ7", "x_scale": 1.0889316666666666, "y_scale": 0.824808}, "renderer_version": "0.1.0", "spotify_url": "https://open.spotify.com/track/4U45aEWtQhrm8A5mxPaFZ7", "track": {"album": "The Stranger (Legacy Edition)", "artists": ["Billy Joel"], "id": "4U45aEWtQhrm8A5mxPaFZ7", "name": "Vienna", "spotify_url": "https://open.spotify.com/track/4U45aEWtQhrm8A5mxPaFZ7"}, "track_id": "4U45aEWtQhrm8A5mxPaFZ7"}</metadata>
+<defs>
+<clipPath id="clip0"><rect x="671.42" y="1200" width="264.29" height="132.14"/></clipPath>
+<clipPath id="clip1"><rect x="671.42" y="1332.14" width="264.29" height="132.14"/></clipPath>
+<clipPath id="clip2"><rect x="935.71" y="1200" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip3"><rect x="671.42" y="1464.29" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip4"><rect x="935.71" y="1464.29" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip5"><rect x="1200" y="1200" width="528.58" height="528.58"/></clipPath>
+<clipPath id="clip6"><rect x="1200" y="671.42" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip7"><rect x="1464.29" y="671.42" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip8"><rect x="1200" y="935.71" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip9"><rect x="1464.29" y="935.71" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip10"><rect x="671.42" y="671.42" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip11"><rect x="935.71" y="671.42" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip12"><rect x="671.42" y="935.71" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip13"><rect x="935.71" y="935.71" width="264.29" height="264.29"/></clipPath>
+</defs>
+<g id="background">
+<rect x="0" y="0" width="2400" height="2400" fill="#ffffff"/>
+<rect x="212" y="212" width="1976" height="1976" fill="#b2c2d3"/>
+</g>
+<g id="cell_bg">
+<rect x="671.42" y="1200" width="264.29" height="264.29" fill="#0d0c1c"/>
+<rect x="935.71" y="1200" width="264.29" height="264.29" fill="#d17e62"/>
+<rect x="671.42" y="1464.29" width="264.29" height="264.29" fill="#d17e62"/>
+<rect x="935.71" y="1464.29" width="264.29" height="264.29" fill="#b2c2d3"/>
+<rect x="1200" y="1200" width="528.58" height="528.58" fill="#776664"/>
+<rect x="1200" y="671.42" width="264.29" height="264.29" fill="#d68dac"/>
+<rect x="1464.29" y="671.42" width="264.29" height="264.29" fill="#163b16"/>
+<rect x="1200" y="935.71" width="264.29" height="264.29" fill="#474a70"/>
+<rect x="1464.29" y="935.71" width="264.29" height="264.29" fill="#e5d395"/>
+<rect x="671.42" y="671.42" width="264.29" height="264.29" fill="#163b16"/>
+<rect x="935.71" y="671.42" width="264.29" height="264.29" fill="#474a70"/>
+<rect x="671.42" y="935.71" width="264.29" height="264.29" fill="#474a70"/>
+<rect x="935.71" y="935.71" width="264.29" height="264.29" fill="#b2c2d3"/>
+</g>
+<g id="motifs">
+<ellipse cx="803.56" cy="1332.14" rx="90.67" ry="90.67" fill="#776664" clip-path="url(#clip0)"/>
+<ellipse cx="803.56" cy="1332.14" rx="90.67" ry="90.67" fill="#474a70" clip-path="url(#clip1)"/>
+<ellipse cx="1067.86" cy="1332.14" rx="78.85" ry="78.85" fill="#e5d395" clip-path="url(#clip2)"/>
+<ellipse cx="1067.86" cy="1332.14" rx="56.77" ry="56.77" fill="#b2c2d3" clip-path="url(#clip2)"/>
+<ellipse cx="1067.86" cy="1332.14" rx="14.19" ry="14.19" fill="#776664" clip-path="url(#clip2)"/>
+<ellipse cx="803.56" cy="1596.43" rx="86.67" ry="86.67" fill="#474a70" clip-path="url(#clip3)"/>
+<ellipse cx="803.56" cy="1596.43" rx="62.4" ry="62.4" fill="#776664" clip-path="url(#clip3)"/>
+<ellipse cx="803.56" cy="1596.43" rx="15.6" ry="15.6" fill="#d17e62" clip-path="url(#clip3)"/>
+<polygon points="957.42,1464.29 1178.29,1464.29 1067.86,1596.43" fill="#0d0c1c" clip-path="url(#clip4)"/>
+<polygon points="957.42,1728.58 1178.29,1728.58 1067.86,1596.43" fill="#0d0c1c" clip-path="url(#clip4)"/>
+<polygon points="1243.41,1200 1685.17,1200 1464.29,1464.29" fill="#e5d395" clip-path="url(#clip5)"/>
+<polygon points="1243.41,1728.58 1685.17,1728.58 1464.29,1464.29" fill="#e5d395" clip-path="url(#clip5)"/>
+<polygon points="1221.71,671.42 1442.58,671.42 1332.14,803.56" fill="#d17e62" clip-path="url(#clip6)"/>
+<polygon points="1221.71,935.71 1442.58,935.71 1332.14,803.56" fill="#d17e62" clip-path="url(#clip6)"/>
+<rect x="1485.99" y="719.91" width="220.89" height="167.31" fill="#d17e62" clip-path="url(#clip7)"/>
+<polygon points="1464.29,935.71 1464.29,1200 1200,1200" fill="#d68dac" clip-path="url(#clip8)"/>
+<ellipse cx="1464.29" cy="1067.86" rx="84.4" ry="84.4" fill="#d68dac" clip-path="url(#clip9)"/>
+<ellipse cx="1728.58" cy="1067.86" rx="84.4" ry="84.4" fill="#d68dac" clip-path="url(#clip9)"/>
+<ellipse cx="671.42" cy="803.56" rx="90.11" ry="90.11" fill="#d68dac" clip-path="url(#clip10)"/>
+<ellipse cx="935.71" cy="803.56" rx="90.11" ry="90.11" fill="#d68dac" clip-path="url(#clip10)"/>
+<rect x="957.42" y="763.03" width="220.88" height="84.76" fill="#b2c2d3" clip-path="url(#clip11)"/>
+<rect x="935.71" y="831.05" width="264.29" height="47.57" fill="#d68dac" clip-path="url(#clip11)"/>
+<rect x="693.13" y="1005.53" width="220.88" height="98.84" fill="#163b16" clip-path="url(#clip12)"/>
+<rect x="671.42" y="1095.34" width="264.29" height="47.57" fill="#d68dac" clip-path="url(#clip12)"/>
+<ellipse cx="1067.86" cy="1067.86" rx="86.08" ry="86.08" fill="#e5d395" clip-path="url(#clip13)"/>
+</g>
+<g id="displaced">
+</g>
+<g id="dots">
+</g>
+<g id="caption">
+<text x="1606" y="2277.68" text-anchor="end" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" fill="#8a8a8a">key = 10</text>
+<rect x="1636" y="2246" width="69" height="44" fill="#b2c2d3"/>
+<rect x="1705" y="2246" width="69" height="44" fill="#d68dac"/>
+<rect x="1774" y="2246" width="69" height="44" fill="#d17e62"/>
+<rect x="1843" y="2246" width="69" height="44" fill="#776664"/>
+<rect x="1912" y="2246" width="69" height="44" fill="#474a70"/>
+<rect x="1981" y="2246" width="69" height="44" fill="#163b16"/>
+<rect x="2050" y="2246" width="69" height="44" fill="#0d0c1c"/>
+<rect x="2119" y="2246" width="69" height="44" fill="#e5d395"/>
+</g>
+</svg>

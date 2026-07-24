@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "fetched_at": "2026-07-24T08:01:30Z",
+  "track": {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/6zFYqv1mOsgBRQbae3JJ9e"
+          },
+          "href": "https://api.spotify.com/v1/artists/6zFYqv1mOsgBRQbae3JJ9e",
+          "id": "6zFYqv1mOsgBRQbae3JJ9e",
+          "name": "Billy Joel",
+          "type": "artist",
+          "uri": "spotify:artist:6zFYqv1mOsgBRQbae3JJ9e"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/1Mhn9VosyjtWn4dMPFlna6"
+      },
+      "href": "https://api.spotify.com/v1/albums/1Mhn9VosyjtWn4dMPFlna6",
+      "id": "1Mhn9VosyjtWn4dMPFlna6",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b2736ce61113662ecf693b605ee5",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e026ce61113662ecf693b605ee5",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d000048516ce61113662ecf693b605ee5",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "name": "The Stranger (Legacy Edition)",
+      "release_date": "1977",
+      "release_date_precision": "year",
+      "total_tracks": 21,
+      "type": "album",
+      "uri": "spotify:album:1Mhn9VosyjtWn4dMPFlna6"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6zFYqv1mOsgBRQbae3JJ9e"
+        },
+        "href": "https://api.spotify.com/v1/artists/6zFYqv1mOsgBRQbae3JJ9e",
+        "id": "6zFYqv1mOsgBRQbae3JJ9e",
+        "name": "Billy Joel",
+        "type": "artist",
+        "uri": "spotify:artist:6zFYqv1mOsgBRQbae3JJ9e"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 214240,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "USSM17700373"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/4U45aEWtQhrm8A5mxPaFZ7"
+    },
+    "href": "https://api.spotify.com/v1/tracks/4U45aEWtQhrm8A5mxPaFZ7",
+    "id": "4U45aEWtQhrm8A5mxPaFZ7",
+    "is_local": false,
+    "name": "Vienna",
+    "popularity": 85,
+    "preview_url": null,
+    "track_number": 5,
+    "type": "track",
+    "uri": "spotify:track:4U45aEWtQhrm8A5mxPaFZ7"
+  },
+  "audio_features": {
+    "id": "4U45aEWtQhrm8A5mxPaFZ7",
+    "uri": "spotify:track:4U45aEWtQhrm8A5mxPaFZ7",
+    "track_href": "https://api.spotify.com/v1/tracks/4U45aEWtQhrm8A5mxPaFZ7",
+    "analysis_url": "https://api.spotify.com/v1/audio-analysis/4U45aEWtQhrm8A5mxPaFZ7",
+    "danceability": 0.532,
+    "duration_ms": 214240,
+    "energy": 0.495,
+    "key": 10,
+    "loudness": -6.662,
+    "mode": 1,
+    "speechiness": 0.0343,
+    "acousticness": 0.659,
+    "instrumentalness": 0,
+    "liveness": 0.0754,
+    "valence": 0.308,
+    "tempo": 124.936,
+    "time_signature": 4,
+    "type": "audio_features"
+  }
+}

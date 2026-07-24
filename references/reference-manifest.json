@@ -1,0 +1,53 @@
+{
+  "description": "Reference tracks with fixtures and source poster images for visual regression.",
+  "entries": [
+    {
+      "slug": "lover-you-shouldve-come-over",
+      "track_id": "6Jv7kjGkhY2fT4yuBF3aTz",
+      "reference": "references/source/final/Lover-You-Should-ve-Come-Over_annotated.jpg",
+      "notes": "square; key 2 palette; flags TFFT -> 10 cells; annotated caption"
+    },
+    {
+      "slug": "real-love-baby",
+      "track_id": "0Z57YWES04xGh3AImDz6Qr",
+      "reference": "references/source/final/Real-Love-Baby_annotated.jpg",
+      "notes": "square; key 7 palette; flags TFTT -> 13 cells; annotated caption"
+    },
+    {
+      "slug": "judas",
+      "track_id": "0QkWikH5Z3U0f79T9iuF6c",
+      "reference": "references/source/final/Judas_annotated.jpg",
+      "notes": "rect; key 10 palette; annotated caption"
+    },
+    {
+      "slug": "vienna",
+      "track_id": "4U45aEWtQhrm8A5mxPaFZ7",
+      "reference": "references/source/final/Vienna_annotated.jpg",
+      "notes": "square; key 10 palette; flags TFTT -> 13 cells; annotated caption"
+    },
+    {
+      "slug": "holocene",
+      "track_id": "35KiiILklye1JRRctaLUb4",
+      "reference": "references/source/mode/Holocene.jpg",
+      "notes": "square; key 1 palette; flags TTFF -> 10 cells; no caption in reference"
+    },
+    {
+      "slug": "bohemian-rhapsody",
+      "track_id": "1AhDOtG9vPSOmsWgNW0BEY",
+      "reference": "references/source/mode/Bohemian-Rhapsody.jpg",
+      "notes": "rect; key 0 palette; no caption in reference"
+    },
+    {
+      "slug": "sunset",
+      "track_id": "76G5L5EC20PrZkH1vvT0s2",
+      "reference": "references/source/track-id/Sunset-The-xx.jpg",
+      "notes": "square; key 2 palette; flags TTFT -> 13 cells; no caption in reference"
+    },
+    {
+      "slug": "the-adults-are-talking",
+      "track_id": "5ruzrDWcT0vuJIOMW7gMnW",
+      "reference": "references/source/track-id/The-Adults-are-Talking.jpg",
+      "notes": "square; key 5 palette; flags TFFF -> 7 cells; no caption in reference"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2400" viewBox="0 0 2400 2400">
+<metadata>{"audio_features": {"acousticness": 0.271, "danceability": 0.414, "duration_ms": 354320, "energy": 0.404, "instrumentalness": 0.0, "key": 0, "liveness": 0.3, "loudness": -9.928, "mode": 0, "speechiness": 0.0499, "tempo": 71.105, "time_signature": 4, "valence": 0.224}, "cache_fetched_at": "2026-07-24T08:01:31Z", "config_version": "2", "generator": "geomusic", "parameters": {"cell_count": 4, "composition": "rect", "config_version": "2", "displaced": false, "features": {"acousticness": 0.271, "danceability": 0.414, "duration_ms": 354320, "energy": 0.404, "instrumentalness": 0.0, "key": 0, "liveness": 0.3, "loudness": -9.928, "mode": 0, "speechiness": 0.0499, "tempo": 71.105, "time_signature": 4, "valence": 0.224}, "flags": [true, false, false, false], "key": 0, "mode": 0, "pitch": "C", "radius_frac": 0.83457, "renderer_version": "0.1.0", "track_id": "1AhDOtG9vPSOmsWgNW0BEY", "x_scale": 1.0589933333333332, "y_scale": 0.663315}, "renderer_version": "0.1.0", "spotify_url": "https://open.spotify.com/track/1AhDOtG9vPSOmsWgNW0BEY", "track": {"album": "A Night At The Opera (2011 Remaster)", "artists": ["Queen"], "id": "1AhDOtG9vPSOmsWgNW0BEY", "name": "Bohemian Rhapsody - Remastered 2011", "spotify_url": "https://open.spotify.com/track/1AhDOtG9vPSOmsWgNW0BEY"}, "track_id": "1AhDOtG9vPSOmsWgNW0BEY"}</metadata>
+<defs>
+<clipPath id="clip0"><rect x="940.16" y="409.6" width="519.69" height="526.93"/></clipPath>
+<clipPath id="clip1"><rect x="940.16" y="936.53" width="519.69" height="526.93"/></clipPath>
+<clipPath id="clip2"><rect x="940.16" y="1463.47" width="519.69" height="263.47"/></clipPath>
+<clipPath id="clip3"><rect x="940.16" y="1726.93" width="519.69" height="263.47"/></clipPath>
+</defs>
+<g id="background">
+<rect x="0" y="0" width="2400" height="2400" fill="#ffffff"/>
+<rect x="212" y="212" width="1976" height="1976" fill="#39295e"/>
+</g>
+<g id="cell_bg">
+<rect x="940.16" y="409.6" width="519.69" height="526.93" fill="#3928b8"/>
+<rect x="940.16" y="936.53" width="519.69" height="526.93" fill="#99d8e8"/>
+<rect x="940.16" y="1463.47" width="519.69" height="263.47" fill="#f5c91b"/>
+<rect x="940.16" y="1726.93" width="519.69" height="263.47" fill="#b574a9"/>
+</g>
+<g id="motifs">
+<polygon points="970.35,409.6 1429.65,409.6 1200,673.07" fill="#f296b8" clip-path="url(#clip0)"/>
+<polygon points="970.35,936.53 1429.65,936.53 1200,673.07" fill="#f296b8" clip-path="url(#clip0)"/>
+<ellipse cx="1200" cy="1200" rx="167.46" ry="167.46" fill="#121111" clip-path="url(#clip1)"/>
+<ellipse cx="1200" cy="1200" rx="120.57" ry="120.57" fill="#ffffff" clip-path="url(#clip1)"/>
+<rect x="954.63" y="1517.28" width="490.75" height="155.84" fill="#39295e" clip-path="url(#clip2)"/>
+<rect x="970.35" y="1838.73" width="459.3" height="59.04" fill="#ffffff" clip-path="url(#clip3)"/>
+</g>
+<g id="displaced">
+</g>
+<g id="dots">
+</g>
+<g id="caption">
+<text x="1606" y="2277.68" text-anchor="end" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" fill="#8a8a8a">key = 0</text>
+<rect x="1636" y="2246" width="69" height="44" fill="#ffffff"/>
+<rect x="1705" y="2246" width="69" height="44" fill="#99d8e8"/>
+<rect x="1774" y="2246" width="69" height="44" fill="#3928b8"/>
+<rect x="1843" y="2246" width="69" height="44" fill="#39295e"/>
+<rect x="1912" y="2246" width="69" height="44" fill="#f296b8"/>
+<rect x="1981" y="2246" width="69" height="44" fill="#b574a9"/>
+<rect x="2050" y="2246" width="69" height="44" fill="#f5c91b"/>
+<rect x="2119" y="2246" width="69" height="44" fill="#121111"/>
+</g>
+</svg>

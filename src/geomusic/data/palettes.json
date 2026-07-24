@@ -1,0 +1,186 @@
+{
+  "source": "4_key_script.png",
+  "source_sha256": "f496f69d8dbdd0a6b39ae01f927dc97dddd31f29e47f0cf523e60692c7695c0f",
+  "palettes": {
+    "0": {
+      "pitch": "C",
+      "background": "#39295e",
+      "background_source": "matched-to-bohemian-rhapsody",
+      "colors": [
+        "#ffffff",
+        "#99d8e8",
+        "#3928b8",
+        "#39295e",
+        "#f296b8",
+        "#b574a9",
+        "#f5c91b",
+        "#121111"
+      ]
+    },
+    "1": {
+      "pitch": "C#/Db",
+      "background": "#1c6056",
+      "background_source": "matched-to-holocene",
+      "colors": [
+        "#1c6056",
+        "#badd2b",
+        "#ececec",
+        "#ffd215",
+        "#02af64",
+        "#9adfc1",
+        "#ef5316",
+        "#053530"
+      ]
+    },
+    "2": {
+      "pitch": "D",
+      "background": "#ffd4d4",
+      "background_source": "matched-to-lover",
+      "colors": [
+        "#ffd4d4",
+        "#82bdf5",
+        "#4b4a4f",
+        "#f3a73b",
+        "#b57a31",
+        "#292c6e",
+        "#ecf6fe",
+        "#ffc5c5"
+      ]
+    },
+    "3": {
+      "pitch": "D#/Eb",
+      "background": "#ececec",
+      "background_source": "provisional-first-swatch",
+      "colors": [
+        "#ececec",
+        "#7a2227",
+        "#a2141c",
+        "#ec1c2c",
+        "#f4a4ac",
+        "#fcc4c3",
+        "#fad6d5",
+        "#ffe473"
+      ]
+    },
+    "4": {
+      "pitch": "E",
+      "background": "#dde0da",
+      "background_source": "provisional-first-swatch",
+      "colors": [
+        "#dde0da",
+        "#62191d",
+        "#8f5656",
+        "#2d0b1e",
+        "#593737",
+        "#995d5d",
+        "#cf9393",
+        "#b0b2ad"
+      ]
+    },
+    "5": {
+      "pitch": "F",
+      "background": "#f7c96b",
+      "background_source": "matched-to-the-adults-are-talking",
+      "colors": [
+        "#f7c96b",
+        "#60b497",
+        "#b0e5b4",
+        "#91b8a3",
+        "#32233b",
+        "#554160",
+        "#796e8b",
+        "#4a5c68"
+      ]
+    },
+    "6": {
+      "pitch": "F#/Gb",
+      "background": "#605142",
+      "background_source": "provisional-first-swatch",
+      "colors": [
+        "#605142",
+        "#2e85ab",
+        "#f5f4ae",
+        "#f24235",
+        "#f4f74a",
+        "#81b5cc",
+        "#f05316",
+        "#171717"
+      ]
+    },
+    "7": {
+      "pitch": "G",
+      "background": "#b2a7a4",
+      "background_source": "matched-to-real-love-baby",
+      "colors": [
+        "#b2a7a4",
+        "#f2efeb",
+        "#eda38c",
+        "#3f3e56",
+        "#aed4d2",
+        "#dad47c",
+        "#b8705e",
+        "#b2aa66"
+      ]
+    },
+    "8": {
+      "pitch": "G#/Ab",
+      "background": "#605142",
+      "background_source": "provisional-first-swatch",
+      "colors": [
+        "#605142",
+        "#f2daaa",
+        "#8ba6a1",
+        "#152a52",
+        "#e2a672",
+        "#356b88",
+        "#db774a",
+        "#c74930"
+      ]
+    },
+    "9": {
+      "pitch": "A",
+      "background": "#b25539",
+      "background_source": "provisional-first-swatch",
+      "colors": [
+        "#b25539",
+        "#8ca0b0",
+        "#a8beef",
+        "#343238",
+        "#f4cab5",
+        "#1a4070",
+        "#fadd66",
+        "#53695a"
+      ]
+    },
+    "10": {
+      "pitch": "Bb",
+      "background": "#b2c2d3",
+      "background_source": "matched-to-vienna",
+      "colors": [
+        "#b2c2d3",
+        "#d68dac",
+        "#d17e62",
+        "#776664",
+        "#474a70",
+        "#163b16",
+        "#0d0c1c",
+        "#e5d395"
+      ]
+    },
+    "11": {
+      "pitch": "B",
+      "background": "#3a7c87",
+      "background_source": "provisional-first-swatch",
+      "colors": [
+        "#3a7c87",
+        "#204b5f",
+        "#ca473d",
+        "#f7c96b",
+        "#323031",
+        "#abad91",
+        "#c5c7b8",
+        "#e0e0e0"
+      ]
+    }
+  }
+}

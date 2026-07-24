@@ -1,0 +1,255 @@
+{
+  "source_page": "https://samanthashanne.cargo.site/Geo-Musical-Configurations",
+  "assets": [
+    {
+      "category": "data",
+      "filename": "Screenshot-of-Excel.png",
+      "url": "https://freight.cargo.site/t/original/i/13c25f68aa2adf3063626b3cd7a9030afbb6f719292c266ba9a55d1fa1e00c06/Screenshot-of-Excel.png",
+      "description": "Parsed Spotify dataset",
+      "path": "references/source/data/Screenshot-of-Excel.png",
+      "status": "downloaded",
+      "size": 307837,
+      "sha256": "2ab43187b4693040c6fad21b924907274602619aeedb2397ca48ca2366e76a07"
+    },
+    {
+      "category": "mode",
+      "filename": "1_mode.png",
+      "url": "https://freight.cargo.site/t/original/i/236972e74eac6b41b6d8a1d443ce73884bf6105e8c61415594fa72b1d77ec3e7/1_mode.png",
+      "description": "Mode mapping overview",
+      "path": "references/source/mode/1_mode.png",
+      "status": "downloaded",
+      "size": 53996,
+      "sha256": "ca65a034c50a8bd633dc53f535f3470fec9d0b44b446e3f4ecab18a001192119"
+    },
+    {
+      "category": "mode",
+      "filename": "1_mode_spotify-doc.png",
+      "url": "https://freight.cargo.site/t/original/i/5806d994b8a049654cfbb107d121a4654ce766ae688bab95433ccaaaae551ace/1_mode_spotify-doc.png",
+      "description": "Spotify mode documentation screenshot",
+      "path": "references/source/mode/1_mode_spotify-doc.png",
+      "status": "downloaded",
+      "size": 21956,
+      "sha256": "4efd174bd69638c1ee2e7727bababa3d40fffbcacfc8265e0c6c3728cd405643"
+    },
+    {
+      "category": "mode",
+      "filename": "1_GH-script.png",
+      "url": "https://freight.cargo.site/t/original/i/43561b04a2eacdeca7c7716b06f827239af15f6ebced9926a2b3225372c4cf69/1_GH-script.png",
+      "description": "Grasshopper mode script",
+      "path": "references/source/mode/1_GH-script.png",
+      "status": "downloaded",
+      "size": 206435,
+      "sha256": "c3262a2579586f7dbed9822c32f461feca2ba939d5b9eaf6170980eae97c8d32"
+    },
+    {
+      "category": "mode",
+      "filename": "Holocene.jpg",
+      "url": "https://freight.cargo.site/t/original/i/591e23bc898c8afb1217d751b2fa16f43a79addf71904233adb46c58f58e424c/Holocene.jpg",
+      "description": "Holocene square-composition example",
+      "path": "references/source/mode/Holocene.jpg",
+      "status": "downloaded",
+      "size": 192123,
+      "sha256": "04ba5dd0ff635c283d24d9b97684357ba8807bdd9f1170ed94047ccbc9d3fdeb"
+    },
+    {
+      "category": "mode",
+      "filename": "Bohemian-Rhapsody.jpg",
+      "url": "https://freight.cargo.site/t/original/i/7c405590e6f840550850ab39be06393a3d3f0b2d678adfc5050c3ce095635812/Bohemian-Rhapsody.jpg",
+      "description": "Bohemian Rhapsody rectangular-composition example",
+      "path": "references/source/mode/Bohemian-Rhapsody.jpg",
+      "status": "downloaded",
+      "size": 195757,
+      "sha256": "eaf1848faf273ca658357135447b5952be182d8ee7db107c896ff353c173ac3b"
+    },
+    {
+      "category": "track-id",
+      "filename": "2_track-id.png",
+      "url": "https://freight.cargo.site/t/original/i/c050efc6ac51f06185d5220fb16f4221f585a344494f7ad302e0fa5dd99a18db/2_track-id.png",
+      "description": "Track-ID mapping overview",
+      "path": "references/source/track-id/2_track-id.png",
+      "status": "downloaded",
+      "size": 61893,
+      "sha256": "edb5d108670552da6cd67a5e9f1ca36a94bc512f0664446a6d3ac2f02401cd55"
+    },
+    {
+      "category": "track-id",
+      "filename": "2_gh-script.png",
+      "url": "https://freight.cargo.site/t/original/i/f28d880f8bc19e2e15f9f7934b1be0557bde5d3e7820d48fe242d3dc68cffa6e/2_gh-script.png",
+      "description": "Grasshopper/Python track-ID script",
+      "path": "references/source/track-id/2_gh-script.png",
+      "status": "downloaded",
+      "size": 119362,
+      "sha256": "aaba3031eac25b2338e1fc77e8ae20e301b5c3adeb48054e0aec44a375f2e990"
+    },
+    {
+      "category": "track-id",
+      "filename": "2_square-subdivisions.png",
+      "url": "https://freight.cargo.site/t/original/i/837830ec2589d1904f6db0c2bf03ed40a7a9834c19e1a4b5f2e6121c6076d02d/2_square-subdivisions.png",
+      "description": "Quad subdivision diagram",
+      "path": "references/source/track-id/2_square-subdivisions.png",
+      "status": "downloaded",
+      "size": 81620,
+      "sha256": "bb952a783bd42577422d0eee0af185603e00155ecc2fa62930b9ed9eeebb2470"
+    },
+    {
+      "category": "track-id",
+      "filename": "The-Adults-are-Talking.jpg",
+      "url": "https://freight.cargo.site/t/original/i/0cd680e7aa2070197d958d6728d425136b97a6ca555eb81d8dbd30be9b922706/The-Adults-are-Talking.jpg",
+      "description": "Seven-subdivision example",
+      "path": "references/source/track-id/The-Adults-are-Talking.jpg",
+      "status": "downloaded",
+      "size": 187437,
+      "sha256": "193befb600fb7ec4736799ebc23ac0054333279635c02d6a52c8c05f23270c14"
+    },
+    {
+      "category": "track-id",
+      "filename": "Sunset-The-xx.jpg",
+      "url": "https://freight.cargo.site/t/original/i/f578327380138f0245a5797511c2067bba8f1a73ffc2047c5ac949760da492bf/Sunset-The-xx.jpg",
+      "description": "Thirteen-subdivision example",
+      "path": "references/source/track-id/Sunset-The-xx.jpg",
+      "status": "downloaded",
+      "size": 214952,
+      "sha256": "e1f2e8a459a3eec1b53b39dd68598f6c37d837b640297d6a9614d063b0d91d64"
+    },
+    {
+      "category": "scaling",
+      "filename": "3_loudness_spotify-doc-a.png",
+      "url": "https://freight.cargo.site/t/original/i/559d2cb215fe8928f81d4b78c02b2fe00bf56cfb235b5cb998dec21c07268ff2/3_loudness_spotify-doc.png",
+      "description": "Loudness documentation screenshot",
+      "path": "references/source/scaling/3_loudness_spotify-doc-a.png",
+      "status": "downloaded",
+      "size": 35714,
+      "sha256": "fedc0fd0d01405c8acaa28b3fcf28aa63cd8d51e0a5a20a7fe6e1e930addc135"
+    },
+    {
+      "category": "scaling",
+      "filename": "3_loudness_spotify-doc-b.png",
+      "url": "https://freight.cargo.site/t/original/i/0cf4055948ff7a382f3e09a3cd4fe34ae33f33e97fa997e7cb59b3394874c28d/3_loudness_spotify-doc.png",
+      "description": "Tempo/documentation screenshot (source filename duplicated)",
+      "path": "references/source/scaling/3_loudness_spotify-doc-b.png",
+      "status": "downloaded",
+      "size": 35714,
+      "sha256": "fedc0fd0d01405c8acaa28b3fcf28aa63cd8d51e0a5a20a7fe6e1e930addc135"
+    },
+    {
+      "category": "scaling",
+      "filename": "3_gh-script.png",
+      "url": "https://freight.cargo.site/t/original/i/8365e69ed6bd7e9de2af90e2d22aacde9a4d2ac3d67c16bbf5053c5712870a41/3_gh-script.png",
+      "description": "Grasshopper scaling script",
+      "path": "references/source/scaling/3_gh-script.png",
+      "status": "downloaded",
+      "size": 214217,
+      "sha256": "6f449987f2d2dffb6aa9e1b8d646035288004bed508496732a14d010d7ceb918"
+    },
+    {
+      "category": "instrumentalness",
+      "filename": "3_instrumentalness_spotify-doc.png",
+      "url": "https://freight.cargo.site/t/original/i/eff43b5450cd2948e590bb9d481834f5368af30f0a790bd667091e0715fb8677/3_instrumentalness_spotify-doc.png",
+      "description": "Instrumentalness documentation screenshot",
+      "path": "references/source/instrumentalness/3_instrumentalness_spotify-doc.png",
+      "status": "downloaded",
+      "size": 45324,
+      "sha256": "5835d3bad38c3bb310bbe430bde2ccfd6f6b4cd09706c2cf12c9b709e7aca7e5"
+    },
+    {
+      "category": "instrumentalness",
+      "filename": "3_gh-script2.png",
+      "url": "https://freight.cargo.site/t/original/i/bde8aa24eed644a3a142774e5fae00a28e695c6b6316b20da873a72f48058066/3_gh-script2.png",
+      "description": "Grasshopper instrumentalness script",
+      "path": "references/source/instrumentalness/3_gh-script2.png",
+      "status": "downloaded",
+      "size": 167665,
+      "sha256": "855495387f3e9d8795c77a6b4a2157884cda794b99b59c267d1145a5e639b34c"
+    },
+    {
+      "category": "key",
+      "filename": "4_key.png",
+      "url": "https://freight.cargo.site/t/original/i/2bc9df67e6d6f6072a7c526f574f79b43d8cff847878153dbd015684dfc5750b/4_key.png",
+      "description": "Key mapping overview",
+      "path": "references/source/key/4_key.png",
+      "status": "downloaded",
+      "size": 61871,
+      "sha256": "a599546e4e258388ceada3a4967c38598b6418fefd8861231781044c729de73c"
+    },
+    {
+      "category": "key",
+      "filename": "pitch-class-wikipedia.png",
+      "url": "https://freight.cargo.site/t/original/i/e9b7f8cb4f57a5c1f9ee133227318e48685f38bfab179a99a5130bfc3a1e8d4d/pitch-class-wikipedia.png",
+      "description": "Pitch-class reference",
+      "path": "references/source/key/pitch-class-wikipedia.png",
+      "status": "downloaded",
+      "size": 5409,
+      "sha256": "e5b89265ccdceccaf7a8fb6e6ac8cab24dae4fe3382ef4a1bc0837e54bdd7984"
+    },
+    {
+      "category": "key",
+      "filename": "4_key_spotify-doc.png",
+      "url": "https://freight.cargo.site/t/original/i/01eec51e5c198a8ca2885cc4ee3f14204a281538b28f1f2542dfb99aeb9bf3bf/4_key_spotify-doc.png",
+      "description": "Spotify key documentation screenshot",
+      "path": "references/source/key/4_key_spotify-doc.png",
+      "status": "downloaded",
+      "size": 26262,
+      "sha256": "455e77d2a406503d7b5f6614391bf53a8cb80f92d4502f12d1949e0e57cee604"
+    },
+    {
+      "category": "key",
+      "filename": "4_key_script.png",
+      "url": "https://freight.cargo.site/t/original/i/bdb4c4671347e91eeca6ca79ba4c4928b80a59344a4d8575a552cf53ef74c2cf/4_key_script.png",
+      "description": "Grasshopper palette definitions",
+      "path": "references/source/key/4_key_script.png",
+      "status": "downloaded",
+      "size": 431824,
+      "sha256": "f496f69d8dbdd0a6b39ae01f927dc97dddd31f29e47f0cf523e60692c7695c0f"
+    },
+    {
+      "category": "final",
+      "filename": "Lover-You-Should-ve-Come-Over_annotated.jpg",
+      "url": "https://freight.cargo.site/t/original/i/b69d6036b99c9130ae5057934cfe74f406a67646d3f3b61086c761152ea39614/Lover-You-Should-ve-Come-Over_annotated.jpg",
+      "description": "Final reference output: Lover, You Should've Come Over",
+      "path": "references/source/final/Lover-You-Should-ve-Come-Over_annotated.jpg",
+      "status": "downloaded",
+      "size": 127026,
+      "sha256": "55bb05a8ada7f22b115b7b3448ca110e663e1b203e3d3c41843d47c39f3d3d33"
+    },
+    {
+      "category": "final",
+      "filename": "Real-Love-Baby_annotated.jpg",
+      "url": "https://freight.cargo.site/t/original/i/6bb473c362f87fee4e783857e95d5de67bb7c160e17b66322827186856ab3735/Real-Love-Baby_annoatated.jpg",
+      "description": "Final reference output: Real Love Baby",
+      "path": "references/source/final/Real-Love-Baby_annotated.jpg",
+      "status": "downloaded",
+      "size": 205761,
+      "sha256": "dfc4efb5806717e2b1bc83aad909d70c64cfeb260bcf84bc8b2296cac71b214d"
+    },
+    {
+      "category": "final",
+      "filename": "Judas_annotated.jpg",
+      "url": "https://freight.cargo.site/t/original/i/0a39b9a36d41c032bf1ecc2048bf6994020aaa9a53a1f94f658af690e8ebdac0/Judas_annoated.jpg",
+      "description": "Final reference output: Judas",
+      "path": "references/source/final/Judas_annotated.jpg",
+      "status": "downloaded",
+      "size": 160726,
+      "sha256": "300c080d68d29eff42c3ec0075727e983e343ee76ae3a4e7cd7491d45cade528"
+    },
+    {
+      "category": "final",
+      "filename": "Vienna_annotated.jpg",
+      "url": "https://freight.cargo.site/t/original/i/a81cddd377fc635c8f4d22245de3810456234bc9cc41a71f9dd5824dc04f69a9/Vienna_annotated.jpg",
+      "description": "Final reference output: Vienna",
+      "path": "references/source/final/Vienna_annotated.jpg",
+      "status": "downloaded",
+      "size": 203824,
+      "sha256": "64566a6f223e184db2004f55daaf5cef904202979d9d81d6f8a1437bdb1e25c7"
+    },
+    {
+      "category": "final",
+      "filename": "exhibition-board.jpg",
+      "url": "https://freight.cargo.site/t/original/i/92dc54fe369043045bd58d988413d96f93b51eb04c7259d6193382709afd685e/Pages-from-Boards_Exhibition_Separate-for-Drive-01.jpg",
+      "description": "Exhibition board with multiple outputs",
+      "path": "references/source/final/exhibition-board.jpg",
+      "status": "downloaded",
+      "size": 1892387,
+      "sha256": "a8e4e689eb23e24fa54e63e1711a01510e8dac7ce04351119968e329914592af"
+    }
+  ]
+}

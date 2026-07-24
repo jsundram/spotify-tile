@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2400" viewBox="0 0 2400 2400">
+<metadata>{"audio_features": {"acousticness": 0.000967, "danceability": 0.661, "duration_ms": 249067, "energy": 0.937, "instrumentalness": 1.58e-05, "key": 10, "liveness": 0.355, "loudness": -3.83, "mode": 0, "speechiness": 0.0744, "tempo": 130.999, "time_signature": 4, "valence": 0.535}, "cache_fetched_at": "2026-07-24T08:01:35Z", "config_version": "2", "generator": "geomusic", "parameters": {"cell_count": 4, "composition": "rect", "config_version": "2", "displaced": true, "features": {"acousticness": 0.000967, "danceability": 0.661, "duration_ms": 249067, "energy": 0.937, "instrumentalness": 1.58e-05, "key": 10, "liveness": 0.355, "loudness": -3.83, "mode": 0, "speechiness": 0.0744, "tempo": 130.999, "time_signature": 4, "valence": 0.535}, "flags": [true, false, false, false], "key": 10, "mode": 0, "pitch": "Bb", "radius_frac": 0.93992, "renderer_version": "0.1.0", "track_id": "0QkWikH5Z3U0f79T9iuF6c", "x_scale": 1.1148916666666666, "y_scale": 0.842997}, "renderer_version": "0.1.0", "spotify_url": "https://open.spotify.com/track/0QkWikH5Z3U0f79T9iuF6c", "track": {"album": "Born This Way", "artists": ["Lady Gaga"], "id": "0QkWikH5Z3U0f79T9iuF6c", "name": "Judas", "spotify_url": "https://open.spotify.com/track/0QkWikH5Z3U0f79T9iuF6c"}, "track_id": "0QkWikH5Z3U0f79T9iuF6c"}</metadata>
+<defs>
+<clipPath id="clip0"><rect x="940.16" y="409.6" width="519.69" height="526.93"/></clipPath>
+<clipPath id="clip1"><rect x="940.16" y="936.53" width="519.69" height="526.93"/></clipPath>
+<clipPath id="clip2"><rect x="940.16" y="1726.93" width="519.69" height="263.47"/></clipPath>
+<clipPath id="clip3"><rect x="940.16" y="409.6" width="259.84" height="1580.8"/></clipPath>
+<clipPath id="clip4"><rect x="1200" y="409.6" width="259.84" height="1580.8"/></clipPath>
+</defs>
+<g id="background">
+<rect x="0" y="0" width="2400" height="2400" fill="#ffffff"/>
+<rect x="212" y="212" width="1976" height="1976" fill="#b2c2d3"/>
+</g>
+<g id="cell_bg">
+<rect x="940.16" y="409.6" width="519.69" height="526.93" fill="#474a70"/>
+<rect x="940.16" y="936.53" width="519.69" height="526.93" fill="#d68dac"/>
+<rect x="940.16" y="1463.47" width="519.69" height="263.47" fill="#776664"/>
+<rect x="940.16" y="1726.93" width="519.69" height="263.47" fill="#d17e62"/>
+</g>
+<g id="motifs">
+<polygon points="1200,444.32 1498.36,673.07 1200,901.81 901.64,673.07" fill="#776664" clip-path="url(#clip0)"/>
+<polygon points="1200,558.7 1349.18,673.07 1200,787.44 1050.82,673.07" fill="#0d0c1c" clip-path="url(#clip0)"/>
+<polygon points="1200,985.87 1479.31,1200 1200,1414.13 920.69,1200" fill="#0d0c1c" clip-path="url(#clip1)"/>
+<polygon points="1200,1092.93 1339.65,1200 1200,1307.07 1060.35,1200" fill="#163b16" clip-path="url(#clip1)"/>
+<rect x="937.23" y="1757.94" width="525.54" height="201.46" fill="#e5d395" clip-path="url(#clip2)"/>
+</g>
+<g id="displaced">
+<ellipse cx="1200" cy="1463.47" rx="94.71" ry="94.71" fill="#b2c2d3" clip-path="url(#clip3)"/>
+<ellipse cx="1200" cy="1463.47" rx="94.71" ry="94.71" fill="#e5d395" clip-path="url(#clip4)"/>
+</g>
+<g id="dots">
+<ellipse cx="1200" cy="1858.67" rx="32.93" ry="32.93" fill="#b2c2d3" clip-path="url(#clip2)"/>
+</g>
+<g id="caption">
+<text x="1606" y="2277.68" text-anchor="end" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" fill="#8a8a8a">key = 10</text>
+<rect x="1636" y="2246" width="69" height="44" fill="#b2c2d3"/>
+<rect x="1705" y="2246" width="69" height="44" fill="#d68dac"/>
+<rect x="1774" y="2246" width="69" height="44" fill="#d17e62"/>
+<rect x="1843" y="2246" width="69" height="44" fill="#776664"/>
+<rect x="1912" y="2246" width="69" height="44" fill="#474a70"/>
+<rect x="1981" y="2246" width="69" height="44" fill="#163b16"/>
+<rect x="2050" y="2246" width="69" height="44" fill="#0d0c1c"/>
+<rect x="2119" y="2246" width="69" height="44" fill="#e5d395"/>
+</g>
+</svg>

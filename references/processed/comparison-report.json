@@ -1,0 +1,85 @@
+{
+  "aggregate": 0.7955875,
+  "results": [
+    {
+      "reference": "/Users/jsundram/Dropbox/Code/spotify-tile/references/source/final/Lover-You-Should-ve-Come-Over_annotated.jpg",
+      "generated": "/Users/jsundram/Dropbox/Code/spotify-tile/references/processed/renders/lover-you-shouldve-come-over.png",
+      "pixel_mismatch": 0.1457,
+      "mean_abs_rgb_error": 17.18,
+      "palette_histogram_distance": 0.1786,
+      "edge_overlap": 0.4706,
+      "similarity": 0.7719,
+      "slug": "lover-you-shouldve-come-over"
+    },
+    {
+      "reference": "/Users/jsundram/Dropbox/Code/spotify-tile/references/source/track-id/Sunset-The-xx.jpg",
+      "generated": "/Users/jsundram/Dropbox/Code/spotify-tile/references/processed/renders/sunset.png",
+      "pixel_mismatch": 0.1592,
+      "mean_abs_rgb_error": 15.95,
+      "palette_histogram_distance": 0.0899,
+      "edge_overlap": 0.4505,
+      "similarity": 0.773,
+      "slug": "sunset"
+    },
+    {
+      "reference": "/Users/jsundram/Dropbox/Code/spotify-tile/references/source/mode/Holocene.jpg",
+      "generated": "/Users/jsundram/Dropbox/Code/spotify-tile/references/processed/renders/holocene.png",
+      "pixel_mismatch": 0.1411,
+      "mean_abs_rgb_error": 15.76,
+      "palette_histogram_distance": 0.226,
+      "edge_overlap": 0.5,
+      "similarity": 0.7784,
+      "slug": "holocene"
+    },
+    {
+      "reference": "/Users/jsundram/Dropbox/Code/spotify-tile/references/source/track-id/The-Adults-are-Talking.jpg",
+      "generated": "/Users/jsundram/Dropbox/Code/spotify-tile/references/processed/renders/the-adults-are-talking.png",
+      "pixel_mismatch": 0.1572,
+      "mean_abs_rgb_error": 11.18,
+      "palette_histogram_distance": 0.1892,
+      "edge_overlap": 0.487,
+      "similarity": 0.7804,
+      "slug": "the-adults-are-talking"
+    },
+    {
+      "reference": "/Users/jsundram/Dropbox/Code/spotify-tile/references/source/final/Real-Love-Baby_annotated.jpg",
+      "generated": "/Users/jsundram/Dropbox/Code/spotify-tile/references/processed/renders/real-love-baby.png",
+      "pixel_mismatch": 0.1118,
+      "mean_abs_rgb_error": 11.46,
+      "palette_histogram_distance": 0.179,
+      "edge_overlap": 0.4543,
+      "similarity": 0.7886,
+      "slug": "real-love-baby"
+    },
+    {
+      "reference": "/Users/jsundram/Dropbox/Code/spotify-tile/references/source/final/Vienna_annotated.jpg",
+      "generated": "/Users/jsundram/Dropbox/Code/spotify-tile/references/processed/renders/vienna.png",
+      "pixel_mismatch": 0.1447,
+      "mean_abs_rgb_error": 13.26,
+      "palette_histogram_distance": 0.0846,
+      "edge_overlap": 0.5052,
+      "similarity": 0.7965,
+      "slug": "vienna"
+    },
+    {
+      "reference": "/Users/jsundram/Dropbox/Code/spotify-tile/references/source/mode/Bohemian-Rhapsody.jpg",
+      "generated": "/Users/jsundram/Dropbox/Code/spotify-tile/references/processed/renders/bohemian-rhapsody.png",
+      "pixel_mismatch": 0.1084,
+      "mean_abs_rgb_error": 9.31,
+      "palette_histogram_distance": 0.1181,
+      "edge_overlap": 0.5936,
+      "similarity": 0.8341,
+      "slug": "bohemian-rhapsody"
+    },
+    {
+      "reference": "/Users/jsundram/Dropbox/Code/spotify-tile/references/source/final/Judas_annotated.jpg",
+      "generated": "/Users/jsundram/Dropbox/Code/spotify-tile/references/processed/renders/judas.png",
+      "pixel_mismatch": 0.1123,
+      "mean_abs_rgb_error": 11.47,
+      "palette_histogram_distance": 0.0386,
+      "edge_overlap": 0.6114,
+      "similarity": 0.8418,
+      "slug": "judas"
+    }
+  ]
+}

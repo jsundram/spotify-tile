@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2400" viewBox="0 0 2400 2400">
+<metadata>{"audio_features": {"acousticness": 0.557, "danceability": 0.836, "duration_ms": 218587, "energy": 0.181, "instrumentalness": 0.45, "key": 2, "liveness": 0.113, "loudness": -15.878, "mode": 1, "speechiness": 0.0778, "tempo": 119.98, "time_signature": 4, "valence": 0.383}, "cache_fetched_at": "2026-07-24T08:01:36Z", "config_version": "2", "generator": "geomusic", "parameters": {"cell_count": 13, "composition": "square", "config_version": "2", "displaced": true, "features": {"acousticness": 0.557, "danceability": 0.836, "duration_ms": 218587, "energy": 0.181, "instrumentalness": 0.45, "key": 2, "liveness": 0.113, "loudness": -15.878, "mode": 1, "speechiness": 0.0778, "tempo": 119.98, "time_signature": 4, "valence": 0.383}, "flags": [true, true, false, true], "key": 2, "mode": 1, "pitch": "D", "radius_frac": 0.9545399999999999, "renderer_version": "0.1.0", "track_id": "76G5L5EC20PrZkH1vvT0s2", "x_scale": 1.0044516666666665, "y_scale": 0.80994}, "renderer_version": "0.1.0", "spotify_url": "https://open.spotify.com/track/76G5L5EC20PrZkH1vvT0s2", "track": {"album": "Coexist", "artists": ["The xx"], "id": "76G5L5EC20PrZkH1vvT0s2", "name": "Sunset", "spotify_url": "https://open.spotify.com/track/76G5L5EC20PrZkH1vvT0s2"}, "track_id": "76G5L5EC20PrZkH1vvT0s2"}</metadata>
+<defs>
+<clipPath id="clip0"><rect x="671.42" y="1200" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip1"><rect x="935.71" y="1200" width="132.14" height="264.29"/></clipPath>
+<clipPath id="clip2"><rect x="1067.86" y="1200" width="132.14" height="264.29"/></clipPath>
+<clipPath id="clip3"><rect x="671.42" y="1464.29" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip4"><rect x="935.71" y="1464.29" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip5"><rect x="1200" y="1200" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip6"><rect x="1464.29" y="1200" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip7"><rect x="1200" y="1464.29" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip8"><rect x="1464.29" y="1464.29" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip9"><rect x="1200" y="671.42" width="528.58" height="528.58"/></clipPath>
+<clipPath id="clip10"><rect x="671.42" y="671.42" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip11"><rect x="935.71" y="671.42" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip12"><rect x="671.42" y="935.71" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip13"><rect x="935.71" y="935.71" width="264.29" height="264.29"/></clipPath>
+<clipPath id="clip14"><rect x="935.71" y="1200" width="264.29" height="264.29"/></clipPath>
+</defs>
+<g id="background">
+<rect x="0" y="0" width="2400" height="2400" fill="#ffffff"/>
+<rect x="212" y="212" width="1976" height="1976" fill="#ffd4d4"/>
+</g>
+<g id="cell_bg">
+<rect x="671.42" y="1200" width="264.29" height="264.29" fill="#ffc5c5"/>
+<rect x="935.71" y="1200" width="264.29" height="264.29" fill="#82bdf5"/>
+<rect x="671.42" y="1464.29" width="264.29" height="264.29" fill="#82bdf5"/>
+<rect x="935.71" y="1464.29" width="264.29" height="264.29" fill="#ffc5c5"/>
+<rect x="1200" y="1200" width="264.29" height="264.29" fill="#292c6e"/>
+<rect x="1464.29" y="1200" width="264.29" height="264.29" fill="#f3a73b"/>
+<rect x="1200" y="1464.29" width="264.29" height="264.29" fill="#b57a31"/>
+<rect x="1464.29" y="1464.29" width="264.29" height="264.29" fill="#ffd4d4"/>
+<rect x="1200" y="671.42" width="528.58" height="528.58" fill="#ffc5c5"/>
+<rect x="671.42" y="671.42" width="264.29" height="264.29" fill="#82bdf5"/>
+<rect x="935.71" y="671.42" width="264.29" height="264.29" fill="#f3a73b"/>
+<rect x="671.42" y="935.71" width="264.29" height="264.29" fill="#ffd4d4"/>
+<rect x="935.71" y="935.71" width="264.29" height="264.29" fill="#ecf6fe"/>
+</g>
+<g id="motifs">
+<polygon points="676.87,1200 930.26,1200 803.56,1332.14" fill="#4b4a4f" clip-path="url(#clip0)"/>
+<polygon points="676.87,1464.29 930.26,1464.29 803.56,1332.14" fill="#4b4a4f" clip-path="url(#clip0)"/>
+<ellipse cx="1067.86" cy="1332.14" rx="94.28" ry="94.28" fill="#4b4a4f" clip-path="url(#clip1)"/>
+<ellipse cx="1067.86" cy="1332.14" rx="94.28" ry="94.28" fill="#292c6e" clip-path="url(#clip2)"/>
+<rect x="685.69" y="1501.39" width="235.74" height="190.09" fill="#ecf6fe" clip-path="url(#clip3)"/>
+<polygon points="941.16,1464.29 1194.55,1464.29 1067.86,1596.43" fill="#ecf6fe" clip-path="url(#clip4)"/>
+<polygon points="941.16,1728.58 1194.55,1728.58 1067.86,1596.43" fill="#ecf6fe" clip-path="url(#clip4)"/>
+<ellipse cx="1332.14" cy="1332.14" rx="92.92" ry="92.92" fill="#f3a73b" clip-path="url(#clip5)"/>
+<ellipse cx="1596.43" cy="1332.14" rx="111.3" ry="111.3" fill="#82bdf5" clip-path="url(#clip6)"/>
+<polygon points="1205.45,1464.29 1458.84,1464.29 1332.14,1596.43" fill="#ffc5c5" clip-path="url(#clip7)"/>
+<polygon points="1205.45,1728.58 1458.84,1728.58 1332.14,1596.43" fill="#ffc5c5" clip-path="url(#clip7)"/>
+<ellipse cx="1596.43" cy="1596.43" rx="94.11" ry="94.11" fill="#f3a73b" clip-path="url(#clip8)"/>
+<polygon points="1210.89,671.42 1717.69,671.42 1464.29,935.71" fill="#82bdf5" clip-path="url(#clip9)"/>
+<polygon points="1210.89,1200 1717.69,1200 1464.29,935.71" fill="#82bdf5" clip-path="url(#clip9)"/>
+<polygon points="676.87,671.42 930.26,671.42 803.56,803.56" fill="#f3a73b" clip-path="url(#clip10)"/>
+<polygon points="676.87,935.71 930.26,935.71 803.56,803.56" fill="#f3a73b" clip-path="url(#clip10)"/>
+<polygon points="1067.86,697.08 1199.91,803.56 1067.86,910.05 935.8,803.56" fill="#292c6e" clip-path="url(#clip11)"/>
+<polygon points="803.56,971.19 923.45,1067.86 803.56,1164.52 683.68,1067.86" fill="#82bdf5" clip-path="url(#clip12)"/>
+<ellipse cx="803.56" cy="1067.86" rx="29" ry="29" fill="#4b4a4f" clip-path="url(#clip12)"/>
+<polygon points="1067.86,971.66 1187.15,1067.86 1067.86,1164.05 948.56,1067.86" fill="#292c6e" clip-path="url(#clip13)"/>
+</g>
+<g id="displaced">
+</g>
+<g id="dots">
+<ellipse cx="1001.78" cy="1266.07" rx="33.04" ry="33.04" fill="#b57a31" clip-path="url(#clip14)"/>
+<ellipse cx="803.56" cy="1662.51" rx="33.04" ry="33.04" fill="#ffd4d4" clip-path="url(#clip3)"/>
+<ellipse cx="1266.07" cy="1332.14" rx="33.04" ry="33.04" fill="#ffd4d4" clip-path="url(#clip5)"/>
+<ellipse cx="1662.51" cy="1332.14" rx="33.04" ry="33.04" fill="#ecf6fe" clip-path="url(#clip6)"/>
+<ellipse cx="1332.14" cy="1662.51" rx="33.04" ry="33.04" fill="#ffd4d4" clip-path="url(#clip7)"/>
+<ellipse cx="1332.14" cy="1067.86" rx="66.07" ry="66.07" fill="#f3a73b" clip-path="url(#clip9)"/>
+<ellipse cx="737.49" cy="737.49" rx="33.04" ry="33.04" fill="#4b4a4f" clip-path="url(#clip10)"/>
+<ellipse cx="1001.78" cy="869.64" rx="33.04" ry="33.04" fill="#b57a31" clip-path="url(#clip11)"/>
+<ellipse cx="1067.86" cy="1067.86" rx="33.04" ry="33.04" fill="#82bdf5" clip-path="url(#clip13)"/>
+</g>
+<g id="caption">
+<text x="1606" y="2277.68" text-anchor="end" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="34" fill="#8a8a8a">key = 2</text>
+<rect x="1636" y="2246" width="69" height="44" fill="#ffd4d4"/>
+<rect x="1705" y="2246" width="69" height="44" fill="#82bdf5"/>
+<rect x="1774" y="2246" width="69" height="44" fill="#4b4a4f"/>
+<rect x="1843" y="2246" width="69" height="44" fill="#f3a73b"/>
+<rect x="1912" y="2246" width="69" height="44" fill="#b57a31"/>
+<rect x="1981" y="2246" width="69" height="44" fill="#292c6e"/>
+<rect x="2050" y="2246" width="69" height="44" fill="#ecf6fe"/>
+<rect x="2119" y="2246" width="69" height="44" fill="#ffc5c5"/>
+</g>
+</svg>

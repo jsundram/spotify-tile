@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "fetched_at": "2026-07-24T08:01:38Z",
+  "track": {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+          },
+          "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+          "id": "0epOFNiUfyON9EYx7Tpr6V",
+          "name": "The Strokes",
+          "type": "artist",
+          "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/2xkZV2Hl1Omi8rk2D7t5lN"
+      },
+      "href": "https://api.spotify.com/v1/albums/2xkZV2Hl1Omi8rk2D7t5lN",
+      "id": "2xkZV2Hl1Omi8rk2D7t5lN",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273e3f1ba3de4659708c25d0f39",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02e3f1ba3de4659708c25d0f39",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851e3f1ba3de4659708c25d0f39",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "name": "The New Abnormal",
+      "release_date": "2020-04-10",
+      "release_date_precision": "day",
+      "total_tracks": 9,
+      "type": "album",
+      "uri": "spotify:album:2xkZV2Hl1Omi8rk2D7t5lN"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V"
+        },
+        "href": "https://api.spotify.com/v1/artists/0epOFNiUfyON9EYx7Tpr6V",
+        "id": "0epOFNiUfyON9EYx7Tpr6V",
+        "name": "The Strokes",
+        "type": "artist",
+        "uri": "spotify:artist:0epOFNiUfyON9EYx7Tpr6V"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 309053,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "USRC11902726"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/5ruzrDWcT0vuJIOMW7gMnW"
+    },
+    "href": "https://api.spotify.com/v1/tracks/5ruzrDWcT0vuJIOMW7gMnW",
+    "id": "5ruzrDWcT0vuJIOMW7gMnW",
+    "is_local": false,
+    "name": "The Adults Are Talking",
+    "popularity": 85,
+    "preview_url": null,
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:5ruzrDWcT0vuJIOMW7gMnW"
+  },
+  "audio_features": {
+    "id": "5ruzrDWcT0vuJIOMW7gMnW",
+    "uri": "spotify:track:5ruzrDWcT0vuJIOMW7gMnW",
+    "track_href": "https://api.spotify.com/v1/tracks/5ruzrDWcT0vuJIOMW7gMnW",
+    "analysis_url": "https://api.spotify.com/v1/audio-analysis/5ruzrDWcT0vuJIOMW7gMnW",
+    "danceability": 0.593,
+    "duration_ms": 309053,
+    "energy": 0.749,
+    "key": 5,
+    "loudness": -5.67,
+    "mode": 1,
+    "speechiness": 0.0475,
+    "acousticness": 0.0113,
+    "instrumentalness": 0.106,
+    "liveness": 0.314,
+    "valence": 0.649,
+    "tempo": 164.959,
+    "time_signature": 4,
+    "type": "audio_features"
+  }
+}

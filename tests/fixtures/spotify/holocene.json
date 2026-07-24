@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "fetched_at": "2026-07-24T08:01:33Z",
+  "track": {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/4LEiUm1SRbFMgfqnQTwUbQ"
+          },
+          "href": "https://api.spotify.com/v1/artists/4LEiUm1SRbFMgfqnQTwUbQ",
+          "id": "4LEiUm1SRbFMgfqnQTwUbQ",
+          "name": "Bon Iver",
+          "type": "artist",
+          "uri": "spotify:artist:4LEiUm1SRbFMgfqnQTwUbQ"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/2LpfNj3vB5rOXfaawLcOBg"
+      },
+      "href": "https://api.spotify.com/v1/albums/2LpfNj3vB5rOXfaawLcOBg",
+      "id": "2LpfNj3vB5rOXfaawLcOBg",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b2734b6b1547455bbecb9f6bba64",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e024b6b1547455bbecb9f6bba64",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d000048514b6b1547455bbecb9f6bba64",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "name": "Bon Iver, Bon Iver",
+      "release_date": "2011-06-21",
+      "release_date_precision": "day",
+      "total_tracks": 10,
+      "type": "album",
+      "uri": "spotify:album:2LpfNj3vB5rOXfaawLcOBg"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4LEiUm1SRbFMgfqnQTwUbQ"
+        },
+        "href": "https://api.spotify.com/v1/artists/4LEiUm1SRbFMgfqnQTwUbQ",
+        "id": "4LEiUm1SRbFMgfqnQTwUbQ",
+        "name": "Bon Iver",
+        "type": "artist",
+        "uri": "spotify:artist:4LEiUm1SRbFMgfqnQTwUbQ"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 336613,
+    "explicit": true,
+    "external_ids": {
+      "isrc": "US38Y1113503"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/35KiiILklye1JRRctaLUb4"
+    },
+    "href": "https://api.spotify.com/v1/tracks/35KiiILklye1JRRctaLUb4",
+    "id": "35KiiILklye1JRRctaLUb4",
+    "is_local": false,
+    "name": "Holocene",
+    "popularity": 72,
+    "preview_url": null,
+    "track_number": 3,
+    "type": "track",
+    "uri": "spotify:track:35KiiILklye1JRRctaLUb4"
+  },
+  "audio_features": {
+    "id": "35KiiILklye1JRRctaLUb4",
+    "uri": "spotify:track:35KiiILklye1JRRctaLUb4",
+    "track_href": "https://api.spotify.com/v1/tracks/35KiiILklye1JRRctaLUb4",
+    "analysis_url": "https://api.spotify.com/v1/audio-analysis/35KiiILklye1JRRctaLUb4",
+    "danceability": 0.374,
+    "duration_ms": 336613,
+    "energy": 0.304,
+    "key": 1,
+    "loudness": -14.52,
+    "mode": 1,
+    "speechiness": 0.0302,
+    "acousticness": 0.943,
+    "instrumentalness": 0.298,
+    "liveness": 0.126,
+    "valence": 0.147,
+    "tempo": 147.969,
+    "time_signature": 4,
+    "type": "audio_features"
+  }
+}
