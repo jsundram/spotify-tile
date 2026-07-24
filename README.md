@@ -1,9 +1,9 @@
 # geomusic
 
-A Python command-line reimplementation of Samantha Shanne's **(Geo) Musical
-Configurations** — a rule-based parametric system that translates Spotify
-track data into planar geometric compositions (Shanne & Hammond, SIGGRAPH
-Posters 2026).
+A Python command-line reimplementation of [Samantha Shanne's](https://www.linkedin.com/in/samanthashanne/) **[(Geo) Musical
+Configurations](https://samanthashanne.cargo.site/Geo-Musical-Configurations)** — a rule-based parametric system that translates Spotify
+track data into planar geometric compositions ([Shanne & Hammond, SIGGRAPH
+Posters 2026](https://dl.acm.org/doi/10.1145/3799825.3818725)).
 
 Give it a Spotify track URL, URI, or raw track id; it retrieves the track's
 metadata and Audio Features, caches the raw responses, and renders a poster as
