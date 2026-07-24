@@ -166,18 +166,28 @@ _CATALOG = re.compile(
 # musical-symbol glyphs, and mixing in a fallback font mid-word looks worse.
 _FLAT = re.compile(r"\b([A-G])-Flat\b")
 _SHARP = re.compile(r"\b([A-G])-Sharp\b")
-_MOVEMENT = re.compile(r"^(.*?):\s*([IVXLCDM]+\.\s.*)$")
+# The roman-numeral movement marker may or may not carry a trailing period
+# ("III. Allegro" vs "I Prestissimo"); accept both, normalize to the period form.
+_MOVEMENT = re.compile(r"^(.*?):\s*([IVXLCDM]+\.?\s.*)$")
+_PREFIX = re.compile(r"^([^:]+):\s*(.*)$")
 
 
-def parse_title(name: str) -> tuple[str, str]:
+def parse_title(name: str, composer: str = "") -> tuple[str, str]:
     """Split a cumbersome classical title into (work, movement), tidied.
 
-    'String Quartet in E-Flat Major, Op. 58, No. 6, G. 247: III. Allegro ...'
-      -> ('String Quartet in E-flat major, Op. 58 No. 6', 'III. Allegro ...')
+    'Boccherini: String Quartet in E-Flat Major, Op. 58, G. 247: III. Allegro'
+      -> ('String Quartet in E-flat major, Op. 58', 'III. Allegro')
     """
+    # Drop a redundant leading "Composer:" prefix (we already show the composer).
+    tokens = {t for t in composer.split() if len(t) > 2}
+    pm = _PREFIX.match(name)
+    if pm and pm.group(1).strip() in tokens:
+        name = pm.group(2)
+
     m = _MOVEMENT.match(name)
     if m:
         work, movement = m.group(1).strip(), m.group(2).strip()
+        movement = re.sub(r"^([IVXLCDM]+)\s", r"\1. ", movement)  # "I Foo" -> "I. Foo"
     else:
         work, movement = name.strip(), ""
 
@@ -323,7 +333,7 @@ def compose_story(doc: dict) -> str:
     track = doc["track"]
     artists = [uninvert_article(a["name"]) for a in track.get("artists", [])]
     composer = artists[0] if artists else ""
-    work, movement = parse_title(track["name"])
+    work, movement = parse_title(track["name"], composer)
 
     art_inner, palette = build_art(doc)
     col = pick_colors(palette)
