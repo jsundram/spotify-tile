@@ -126,17 +126,13 @@ class SpotifyClient:
             path = next_url.removeprefix(API_BASE)
 
     def search_track(self, query: str, *, limit: int = 5) -> list[dict]:
-        raw = self._get(
-            f"/search?q={httpx.QueryParams({'q': query})['q']}&type=track&limit={limit}",
-            f"search for {query!r}",
-        )
+        params = httpx.QueryParams({"q": query, "type": "track", "limit": limit})
+        raw = self._get(f"/search?{params}", f"search for {query!r}")
         return raw.get("tracks", {}).get("items", [])
 
     def search_album(self, query: str, *, limit: int = 10) -> list[dict]:
-        raw = self._get(
-            f"/search?q={httpx.QueryParams({'q': query})['q']}&type=album&limit={limit}",
-            f"album search for {query!r}",
-        )
+        params = httpx.QueryParams({"q": query, "type": "album", "limit": limit})
+        raw = self._get(f"/search?{params}", f"album search for {query!r}")
         return raw.get("albums", {}).get("items", [])
 
     def get_album(self, album_id: str) -> dict:
