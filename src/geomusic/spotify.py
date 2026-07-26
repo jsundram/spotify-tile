@@ -132,6 +132,30 @@ class SpotifyClient:
         )
         return raw.get("tracks", {}).get("items", [])
 
+    def search_album(self, query: str, *, limit: int = 10) -> list[dict]:
+        raw = self._get(
+            f"/search?q={httpx.QueryParams({'q': query})['q']}&type=album&limit={limit}",
+            f"album search for {query!r}",
+        )
+        return raw.get("albums", {}).get("items", [])
+
+    def get_album(self, album_id: str) -> dict:
+        """Full album object, including a (simplified, popularity-free) track list."""
+        return self._get(f"/albums/{album_id}", f"album {album_id}")
+
+    def get_tracks(self, track_ids: list[str]) -> list[dict]:
+        """Full track objects (which carry ``popularity``) for the given ids.
+
+        The Spotify batch endpoint accepts up to 50 ids per call; longer lists
+        are fetched in chunks and concatenated in order.
+        """
+        out: list[dict] = []
+        for start in range(0, len(track_ids), 50):
+            batch = track_ids[start : start + 50]
+            raw = self._get(f"/tracks?ids={','.join(batch)}", f"{len(batch)} tracks")
+            out.extend(t for t in raw.get("tracks", []) if t)
+        return out
+
     def _get(self, path: str, what: str, _retries: int = 2) -> dict:
         token = self._ensure_token()
         try:
