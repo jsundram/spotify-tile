@@ -27,6 +27,7 @@ Usage:
     uv run python scripts/instagram_story.py --all            # whole playlist
     uv run python scripts/instagram_story.py 181 --out foo.png
     uv run python scripts/instagram_story.py https://open.spotify.com/track/...
+    uv run python scripts/instagram_story.py https://open.spotify.com/album/...   # every track
 """
 
 from __future__ import annotations
@@ -53,6 +54,7 @@ from geomusic.inputs import InputError, parse_track_input
 from geomusic.models import TrackData
 from geomusic.normalize import derive
 from geomusic.palettes import Palette, get_palette
+from geomusic.preview_features import PreviewAnalysisError, features_from_preview
 from geomusic.reccobeats import ReccoBeatsError, complete_features, fetch_audio_features
 from geomusic.render_png import svg_to_png
 from geomusic.render_svg import render_svg
@@ -461,7 +463,12 @@ def _dir_for_id(track_id: str) -> Path | None:
 
 
 def _fetch_live(track_id: str) -> dict:
-    """Fetch + cache a track the same way the geomusic CLI does."""
+    """Fetch + cache a track the same way the geomusic CLI does.
+
+    Feature sources, in order: Spotify audio-features (403 for post-2024
+    apps), the ReccoBeats dataset, then preview-based extraction
+    (``geomusic.preview_features``) for tracks absent from both.
+    """
     with SpotifyClient() as client:
         raw_track = client.get_track(track_id)
         try:
@@ -469,11 +476,9 @@ def _fetch_live(track_id: str) -> dict:
         except ForbiddenError:
             features = fetch_audio_features([track_id]).get(track_id)
             if features is None:
-                raise SystemExit(
-                    f"track {track_id} is not in the ReccoBeats dataset and Spotify "
-                    "audio-features access is gone (403); cannot render."
-                ) from None
-            raw_features = complete_features(features, raw_track)
+                raw_features = features_from_preview(track_id, raw_track)
+            else:
+                raw_features = complete_features(features, raw_track)
     doc = cache.make_doc(raw_track, raw_features)
     cache.save(track_id, doc)
     return doc
@@ -521,7 +526,7 @@ def resolve_doc(arg: str, *, offline: bool) -> tuple[dict, Path]:
     load_dotenv()
     try:
         return _fetch_live(track_id), out_dir
-    except (SpotifyError, ReccoBeatsError) as exc:
+    except (SpotifyError, ReccoBeatsError, PreviewAnalysisError) as exc:
         raise SystemExit(f"could not fetch {track_id}: {exc}") from None
 
 
@@ -529,6 +534,28 @@ def _all_dirs() -> list[Path]:
     return sorted(
         d for d in PLAYLIST_ROOT.glob("*/*") if (d / "track.json").exists()
     )
+
+
+ALBUM_ID_RE = re.compile(
+    r"^(?:spotify:album:|https?://open\.spotify\.com(?:/[a-z-]+)?/album/)([0-9A-Za-z]{22})"
+)
+
+
+def parse_album_input(arg: str) -> str | None:
+    """The album id if ``arg`` is a Spotify album URL / URI, else None."""
+    m = ALBUM_ID_RE.match(arg.strip())
+    return m.group(1) if m else None
+
+
+def album_track_ids(album_id: str) -> tuple[str, list[str]]:
+    """Album name and its track ids, in album order."""
+    load_dotenv()
+    with SpotifyClient() as client:
+        album = client.get_album(album_id)
+    tracks = album["tracks"]
+    if tracks.get("next"):
+        print(f"warning: album has more than {len(tracks['items'])} tracks; extras skipped")
+    return album["name"], [t["id"] for t in tracks["items"]]
 
 
 def render_story(doc: dict, out_dir: Path, out: Path | None) -> Path:
@@ -543,7 +570,8 @@ def render_story(doc: dict, out_dir: Path, out: Path | None) -> Path:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Generate an Instagram story for a track.")
-    ap.add_argument("track", nargs="?", help="track dir, NNN index, URL, URI, or id")
+    ap.add_argument("track", nargs="?",
+                    help="track dir, NNN index, URL, URI, or id; or an album URL / URI")
     ap.add_argument("--all", action="store_true", help="render every track in the playlist")
     ap.add_argument("--out", type=Path, help="output PNG path (single track only)")
     ap.add_argument("--offline", action="store_true",
@@ -560,6 +588,29 @@ def main() -> None:
 
     if not args.track:
         ap.error("provide a track, or use --all")
+
+    album_id = parse_album_input(args.track)
+    if album_id:
+        if args.out:
+            ap.error("--out applies to a single track, not an album")
+        if args.offline:
+            ap.error("album mode needs the network to list the album's tracks")
+        name, ids = album_track_ids(album_id)
+        album_dir = Path("output") / "albums" / album_id
+        print(f"{name}: rendering {len(ids)} stories to {album_dir}...")
+        for i, tid in enumerate(ids, 1):
+            try:
+                doc, _ = resolve_doc(tid, offline=False)
+            except SystemExit as exc:
+                print(f"  SKIP {tid}: {exc}")
+                continue
+            track_dir = album_dir / f"{i:03d}-{tid}"
+            track_dir.mkdir(parents=True, exist_ok=True)
+            (track_dir / "track.json").write_text(json.dumps(doc, indent=2))
+            png = render_story(doc, track_dir, None)
+            print(f"  {png}")
+        return
+
     doc, out_dir = resolve_doc(args.track, offline=args.offline)
     png = render_story(doc, out_dir, args.out)
     print(f"wrote {png}")
